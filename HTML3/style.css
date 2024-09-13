@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'jura';
+    background-color: rgb(236, 132, 62);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.resume-container {
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    line-height: 1.4;
+    letter-spacing: 5px;
+}
+
+.content {
+    text-align: left;
+}
+
+.h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    background-color: #F87740;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    margin-bottom: 10px;
+    color: #F87740;
+    font-weight: bold;
+}
+
+.year-subject {
+    margin-bottom: 13px;
+}
+
+.year-subject p {
+    color: #F87740;
+    font-weight: bold;
+}
+
+.backbar {
+    width: 100%;
+    background-color: #e7c6b7;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frontbar {
+    background-color: #F87740;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    color: white;
+}
+
+.frontbar span {
+    position: absolute;
+    left: 10px;
+    font-size: 1rem;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+.subject-text {
+    margin-bottom: 10px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.text-icon {
+    font-size: 0,9rem;
+    color: #F87740;
+    font-weight: bold;
+}
+
+.text-icon a {
+    text-decoration: none;
+    color: inherit;
+}
